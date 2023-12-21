@@ -1,0 +1,59 @@
+
+.delete-button{
+    background-color: red;
+    color:white;
+    margin-left: 3em;
+}
+.update-button{
+    background-color: rgb(43, 133, 198);
+    color:white;
+    margin-left: 3em;
+}
+.container{
+    display:  flex;
+    margin: 1em 3em;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0.5em;
+}
+.listing{
+    margin-right: 2em;
+}
+.mainwork{
+    width: fit-content;
+    margin-left: 20%;
+    background-color: rgb(133, 174, 174);
+    margin-top: 2em;
+    padding: 1em;
+    border: 4px groove lightblue;
+}
+.pop-up{
+    width: fit-content;
+    background-color: rgb(230, 29, 29);
+    border: 2px solid rgb(188, 55, 55);
+    margin: -15% 40%;
+    z-index: 3;
+    padding: 2em;
+    position: relative;
+    display: flex;
+}
+.pop-up button{
+    margin: 4em 1em;
+}
+.pop-upform{
+    width: fit-content;
+    background-color: rgb(140, 181, 210);
+    border: 2px solid rgb(188, 55, 55);
+    margin: -15% 30%;
+    z-index: 3;
+    padding: 2em;
+    position: relative;
+}
+.div-for-buttons{
+    display: flex;
+    margin: 0.5em;
+    
+}
+.div-for-buttons button{
+    margin: 0.2em 1em;
+}

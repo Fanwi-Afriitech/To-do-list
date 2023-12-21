@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formvalistyle.css">
+    <title>To do list</title>
+</head>
+<body onload="DisplayItems()" >
+
+    <div class="mainwork">
+        
+        <div>
+            <label >TasksName:
+                <input type="text" id="myname" required>
+            </label><br/><br/>
+            <label >due date:
+                <input type="date" id="date" required>
+            </label><br/><br/>
+            <label >
+                <input type="button" value="Add" onclick="addTask()">
+            </label>
+            
+        </div>
+        
+        <div id="dis"></div>
+    </div>
+    
+    <script src="learn2.js"></script>
+</body>
+</html>
